@@ -24,7 +24,7 @@ Periféricos a utilizar:
 - LED 1: Se enciende para indicar que el sistema tiene permito grabar para grabar.
 - LED 2:  Se enciende para indicar que el sistema está grabando y transmitiendo por puerto serie.
 - ANALOG IN A0: Se utiliza para leer la información del micrófono del sensor.
-- DIGITAL IN D@: Se utiliza para leer la bandera de superación de umbral de sonido del micrófono del sensor.
+- DIGITAL IN D2: Se utiliza para leer la bandera de superación de umbral de sonido del micrófono del sensor.
 - UART: Se utiliza para enviar información del sistema a la PC.
 
 La grabación de sonido se realiza mediante un sensor de sonido (con micrófono):
