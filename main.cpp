@@ -70,7 +70,7 @@ void testSensor() {
       !recordState) {   // Acá hay código bloqueante
     recordState = true; // Mientras recordState == true solo se transmite
     recordLed = ON;
-    uartTask();
+    uartTask();  // Enviar información
     recordState = false;
     recordLed = OFF;
   }
